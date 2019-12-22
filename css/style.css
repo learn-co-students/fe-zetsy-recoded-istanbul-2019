@@ -5,6 +5,7 @@
 /*////////// Global Styles //////////*/
 
 body {
+	margin: 0;
 	background: #F3EBE9;
 	font-size: 100%;
 	font-family: 'Times New Roman', serif; 
@@ -18,3 +19,32 @@ body {
 }
 
 /* Write all remaining styles here */
+
+h1 {
+	font-family: 'Baskerville', serif;
+	color: #6F7F7A;
+	font-size: 5em;
+	padding-bottom: 10px;
+	margin: 0 0 5px;
+	border-bottom: 1px solid #ccc;
+
+}
+
+h2 {
+	color: rgb(111, 127, 122);
+	font: size 2em;
+}
+
+p {
+	color: #555;
+	font-size: 1em;
+	margin: 0 0 20px 0;
+}
+
+img {
+	border: 5px rgb(152,173,166) solid;
+}
+
+#fot {
+	float: right;
+}

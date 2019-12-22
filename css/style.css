@@ -18,3 +18,37 @@ body {
 }
 
 /* Write all remaining styles here */
+
+div h1{
+	font-size: 4rem;
+	margin-top: 0;
+	color: #9baaa5;
+}
+
+div img{
+	border: 3px solid #9baaa5;
+}
+
+div h2{
+	font-size: 2rem;
+	margin-top: 0;
+	color: #9baaa5;
+}
+
+a:hover img{
+	border-color: #70817b;
+}
+div p:last-child {
+	float: right;
+	font-size: 0.8rem;
+	
+}
+
+.clearf::after{
+content: '.';
+display: block;
+clear: both;
+height: 0;
+line-height: 0;
+visibility: hidden;
+}

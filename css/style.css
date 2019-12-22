@@ -2,6 +2,14 @@
 
 /* link the web font used for the level 1 heading here */
 
+@font-face {
+	font-family: Basker;
+	src: url('./fonts/Baskerbille.ttc')
+  }
+h1{
+	font-family: Basker, sans-serif;
+}
+  
 /*////////// Global Styles //////////*/
 
 body {
@@ -16,5 +24,42 @@ body {
 	background: #fff;
 	padding: 0 45px 20px;
 }
-
 /* Write all remaining styles here */
+.style-header{
+	color: rgb(141,157,151);
+	margin-top: 0;
+
+}
+
+.color-h2{
+	color: rgb(99,110,106);
+}
+a {
+	text-decoration: none;
+	color: rgb(76,130,180)
+}
+
+footer{
+	text-align: right;
+	color: rgb(190,167,145);
+	font-size: smaller;
+}
+img {
+	border-style: solid;
+	border-width: 5px;
+	border-color: rgb(94,108,103);
+}
+
+.press img{
+	border-style: solid;
+	border-width: 5px;
+	border-color: rgb(191, 191, 191);
+	transition: border-color 0.5s ease;
+}
+
+
+.press img:hover{
+	
+}
+
+

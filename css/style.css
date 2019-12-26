@@ -17,4 +17,36 @@ body {
 	padding: 0 45px 20px;
 }
 
+.wrapper h1 {
+padding: 20px 0 0;
+margin: 10px;
+font-size: 70px;
+color:rgb(156,171,166);
+}
+
+.wrapper h2 {
+	font-size: 30px;
+	color:rgb(156,171,166);
+	}
+
+.wrapper img {
+	border: 4px solid rgb(156,171,166);
+}
+
+.wrapper p:last-child{
+float:right;
+background-color: #fff;
+}
+
+h1:hover{
+	color:rgb(111,127,122);
+}
+
+.wrapper a img {
+	border: 4px solid rgb(204,204,204);
+}
+
+.wrapper a img:hover {
+	border: 4px solid rgb(111,127,122);
+}
 /* Write all remaining styles here */

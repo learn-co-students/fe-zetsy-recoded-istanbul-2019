@@ -8,6 +8,7 @@ body {
 	background: #F3EBE9;
 	font-size: 100%;
 	font-family: 'Times New Roman', serif; 
+	color: #9DAEA8;
 }
 
 .wrapper {
@@ -18,3 +19,42 @@ body {
 }
 
 /* Write all remaining styles here */
+
+.copyrights{
+	float: right;
+}
+
+h1{
+	font-size: 40px;
+	margin-top: 20px;
+}
+
+.featured{
+	border:5px solid #9DAEA8;
+}
+
+.clearfix::after{
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	height: 0;
+	line-height: 0;
+}
+
+p{
+	color: #000;
+}
+
+a{
+	text-decoration: none;
+}
+
+.press-images img{
+	margin-left: 5px;
+	border:2px solid transparent;
+	transition: all .9s ease;
+}
+.press-images img:hover{
+	border:2px solid #9DAEA8;
+}

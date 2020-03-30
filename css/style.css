@@ -17,4 +17,57 @@ body {
 	padding: 0 45px 20px;
 }
 
-/* Write all remaining styles here */
+h1 {
+	font-family: 'Baskerville', serif;
+	font-size: 5em;
+	padding: 10px 0px 5px;
+	margin: 0 0 5px;
+	color: #555;
+
+}
+h2 {
+	color: rgb(111,127,122);
+    font-size: 2em;
+}
+p  {
+	color: #555;
+	font-size: 1em;
+	
+}
+.main img {
+border: 5px rgb(152,173,166) solid ;
+
+}
+
+header a {
+	color: rgb(152,173,166);
+	text-decoration: none;
+}
+
+header a:hover {
+	color: rgb(111,127,122);
+}
+
+#press {
+	margin-bottom: 20px;
+}
+
+#press img {
+	border: 5px #ccc solid;
+	padding: 1px;
+}
+
+#press img:hover {
+	border: 5px rgb(111,127,122) solid;
+}
+.main a {
+	text-decoration: none;
+	color: #1783bb;
+}
+.main a:hover {
+text-decoration: underline;
+}
+footer {
+	font-size: 0.8em;
+	text-align: right;
+}

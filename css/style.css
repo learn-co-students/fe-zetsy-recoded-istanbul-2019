@@ -1,3 +1,4 @@
+  
 /*////////////// Fonts //////////////*/
 
 /* link the web font used for the level 1 heading here */
@@ -18,3 +19,30 @@ body {
 }
 
 /* Write all remaining styles here */
+
+.wrapper h1 {
+ color: rgba(129, 129, 129, 0.774);
+ margin: 0 0 5px 0;
+ font-weight: 400;
+ font-size: 3em;
+}
+
+.wrapper h2 {
+	color: rgba(129, 129, 129, 0.774);
+}
+.top img {
+	border: 2px solid gray;
+}
+
+.end img:hover {
+	border: 3px solid gray;
+}
+
+.copy {
+	float: right;
+}
+.copy::after {
+	content: "";
+	display: block;
+	clear: both;
+}

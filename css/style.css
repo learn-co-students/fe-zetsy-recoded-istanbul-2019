@@ -18,3 +18,42 @@ body {
 }
 
 /* Write all remaining styles here */
+a{
+	text-decoration: none;
+}
+
+
+h1{
+	font-size: 40px;
+	margin-top: 20px;
+}
+
+.featured{
+	border-radius:5px solid grey;
+}
+
+.clearfix::after{
+	display: block;
+	clear: both;
+	visibility: hidden;
+	height: 0;
+	line-height: 0;
+}
+
+p{
+	color: #000;
+}
+
+
+.press-images img{
+	margin-top: 5px;
+	border-radius:50px solid;
+	
+}
+.press-images img:hover{
+	border-radius:30px solid grey;
+}
+
+.copyrights{
+	float: right;
+}

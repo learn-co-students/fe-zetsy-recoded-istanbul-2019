@@ -1,20 +1,54 @@
 /*////////////// Fonts //////////////*/
+h1{
+
+	color: #9CA9A5;
+	/* font-size: ; */
+	font-size: 3em;;
+	font-weight: lighter;
+	margin-top: 0in;
+}
+h3{
+	color:#89877B;
+	font-weight: 900;
+	font-size: 1.75em;
+}
 
 /* link the web font used for the level 1 heading here */
 
 /*////////// Global Styles //////////*/
 
 body {
+	margin:0 auto;
 	background: #F3EBE9;
 	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+	font-family: 'Times New Roman', serif;
+	
+
 }
 
 .wrapper {
+	margin:0 auto;
 	width: 960px;
-	margin: 0 auto;
 	background: #fff;
 	padding: 0 45px 20px;
+
+}
+footer{
+	float: right;
+	font-size: x-small;
+	
+}
+/* /////////////images////////////// */
+#necklace{
+	border: 3px solid #9CABA6;
+}
+.press{
+	border: 3px solid #CACDCC;	
 }
 
 /* Write all remaining styles here */
+/* //////BOUNUS////////// */
+.press:hover{
+ border-color: grey;
+
+}
